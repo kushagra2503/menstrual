@@ -86,13 +86,13 @@ const Login = ({ onLogin }) => {
             LOGIN
           </button>
 
+          <div className="demo-credentials">
+            <p className="demo-title">Demo Credentials</p>
+            <p className="demo-text">Select user type and use password: <span className="demo-password">password123</span></p>
+          </div>
+
           <a href="#" className="forgot-password">Forgot password?</a>
         </form>
-
-        <div className="demo-credentials">
-          <p><strong>Demo Credentials:</strong></p>
-          <p>Select user type from dropdown and use password: <strong>password123</strong></p>
-        </div>
       </div>
     </div>
   );
